@@ -1,4 +1,4 @@
-# Install script for directory: /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw
+# Install script for directory: /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/cmake_install.cmake")
+  include("/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/cmake_install.cmake")
 
 endif()
 

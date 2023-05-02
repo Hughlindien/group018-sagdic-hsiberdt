@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src
+C_INCLUDES = -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src
 
 C_FLAGS = -g -fPIC -fdiagnostics-color=always -Wall
 

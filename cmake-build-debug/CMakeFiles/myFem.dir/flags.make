@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -Dgraphic
 
-C_INCLUDES = -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/gmsh/gmsh-4.11.1-Linux64-sdk/include
+C_INCLUDES = -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include -I/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/gmsh/gmsh-4.11.1-Linux64-sdk/include
 
 C_FLAGS = -g -fdiagnostics-color=always
 

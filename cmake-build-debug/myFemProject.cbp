@@ -8,25 +8,25 @@
 		<Option virtualFolders="CMake Files\;CMake Files\glfw\;CMake Files\glfw\CMake\;CMake Files\glfw\CMake\modules\;CMake Files\glfw\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="myFem">
-				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/myFem" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug"/>
+				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/myFem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-Dgraphic"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/gmsh/gmsh-4.11.1-Linux64-sdk/include"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/gmsh/gmsh-4.11.1-Linux64-sdk/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -36,22 +36,22 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 myFem"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 myFem"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="myFem/fast">
-				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/myFem" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug"/>
+				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/myFem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-Dgraphic"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/gmsh/gmsh-4.11.1-Linux64-sdk/include"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/gmsh/gmsh-4.11.1-Linux64-sdk/include"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -61,53 +61,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 myFem/fast"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 myFem/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run">
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw">
-				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src"/>
+				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -117,23 +117,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw/fast">
-				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src"/>
+				<Option output="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src"/>
-					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src"/>
+					<Add directory="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src"/>
 					<Add directory="/usr/include/c++/11"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/include/c++/11/backward"/>
@@ -143,137 +143,137 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug/glfw/src/glfw_config.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include/GLFW/glfw3.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/include/GLFW/glfw3native.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/include/GLFW/glfw3native.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/context.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/egl_context.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/egl_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/egl_context.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/egl_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/glx_context.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/glx_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/glx_context.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/glx_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/init.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/input.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/input.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/internal.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/internal.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/linux_joystick.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/linux_joystick.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/linux_joystick.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/linux_joystick.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/mappings.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/mappings.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/monitor.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/osmesa_context.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/osmesa_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/osmesa_context.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/osmesa_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/posix_thread.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/posix_thread.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/posix_thread.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/posix_thread.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/posix_time.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/posix_time.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/posix_time.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/posix_time.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/vulkan.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/vulkan.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/window.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/x11_init.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/x11_init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/x11_monitor.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/x11_monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/x11_platform.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/x11_platform.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/x11_window.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/x11_window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/xkb_unicode.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/xkb_unicode.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/xkb_unicode.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/xkb_unicode.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/src/fem.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/src/fem.c">
 			<Option target="myFem"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/src/fem.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/src/fem.h">
 			<Option target="myFem"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/src/glfem.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/src/glfem.c">
 			<Option target="myFem"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/src/glfem.h">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/src/glfem.h">
 			<Option target="myFem"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/src/homework.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/src/homework.c">
 			<Option target="myFem"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/src/main.c">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/src/main.c">
 			<Option target="myFem"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/CMakeLists.txt">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/CMakeLists.txt">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/CMake/modules/FindVulkan.cmake">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/CMake/modules/FindVulkan.cmake">
 			<Option virtualFolder="CMake Files\glfw\CMake\modules\"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/CMakeLists.txt">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/glfw3.pc.in">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src/glfw_config.h.in">
+		<Unit filename="/home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
 	</Project>

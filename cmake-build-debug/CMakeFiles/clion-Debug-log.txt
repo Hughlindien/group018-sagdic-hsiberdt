@@ -1,4 +1,4 @@
-/home/hugo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport -B /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug
+/home/hugo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt -B /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug
 -- The C compiler identification is GNU 11.3.0
 -- The CXX compiler identification is GNU 11.3.0
 -- Detecting C compiler ABI info
@@ -11,7 +11,7 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-CMake Warning (dev) at /home/hugo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindOpenGL.cmake:315 (message):
+CMake Warning (dev) at /home/hugo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8770.66/bin/cmake/linux/x64/share/cmake-3.25/Modules/FindOpenGL.cmake:315 (message):
   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
   cmake_policy command to set the policy and suppress this warning.
@@ -60,8 +60,8 @@ CMake Deprecation Warning at glfw/CMakeLists.txt:10 (cmake_policy):
 -- Looking for shmat - found
 -- Looking for IceConnectionNumber in ICE
 -- Looking for IceConnectionNumber in ICE - found
-GMSH_INCLUDE_DIR : /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/gmsh/gmsh-4.11.1-Linux64-sdk/include
-GMSH_LIBRARY : /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/gmsh/gmsh-4.11.1-Linux64-sdk/lib/libgmsh.so
+GMSH_INCLUDE_DIR : /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/gmsh/gmsh-4.11.1-Linux64-sdk/include
+GMSH_LIBRARY : /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/gmsh/gmsh-4.11.1-Linux64-sdk/lib/libgmsh.so
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/cmake-build-debug
+-- Build files have been written to: /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/cmake-build-debug

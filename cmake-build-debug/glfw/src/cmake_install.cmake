@@ -1,4 +1,4 @@
-# Install script for directory: /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt-rapport/glfw/src
+# Install script for directory: /home/hugo/Documents/Q6/LEPL1110/Projet/group018-sagdic-hsiberdt/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
